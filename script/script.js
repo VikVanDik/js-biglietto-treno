@@ -30,11 +30,13 @@ if (datiValidi) {
 }
 
 if (age < 18) {
-  priceUA = price * 80/100
+  priceUA = price * 80/100 
   console.log (priceUA);
+
 } else if (age > 64) {
   priceA = price * 60/100
   console.log(priceA);
+
 }
 
 console.log(age);
