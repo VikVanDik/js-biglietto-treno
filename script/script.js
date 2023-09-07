@@ -36,7 +36,7 @@ if (age < 18) {
 } else if (age > 64) {
   priceA = price * 60/100
   console.log(priceA);
-
+  document.getElementById('output').innerHTML = `Hai più di 65 anni quindi avrai uno sconto del 40%, invece di pagare ${price}€ pagherai soli ${priceA}€`
 }
 
 console.log(age);
