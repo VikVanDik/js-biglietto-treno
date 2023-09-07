@@ -32,7 +32,7 @@ if (datiValidi) {
 if (age < 18) {
   priceUA = price * 80/100 
   console.log (priceUA);
-
+  document.getElementById('output').innerHTML = `Hai meno di 18 anni quindi avrai uno sconto del 20%, invece di pagare ${price}€ pagherai soli ${priceUA}€`
 } else if (age > 64) {
   priceA = price * 60/100
   console.log(priceA);
