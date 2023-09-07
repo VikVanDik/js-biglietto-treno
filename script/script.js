@@ -12,9 +12,9 @@ const km = parseInt (prompt("Quanti km hai intenzione di percorrere con noi?"))
 
 
 
+let price;
 let message;
 let datiValidi = true
-let price;
 let priceUA;
 let priceA;
 
@@ -37,12 +37,12 @@ if (age < 18) {
   console.log(priceA);
 }
 
-
-
-
-
-
-
 console.log(age);
 console.log(km);
 console.log(message);
+
+
+
+
+
+
